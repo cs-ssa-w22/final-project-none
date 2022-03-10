@@ -8,7 +8,17 @@ Group Members:
     Jiachen (Coco) Yu
 
 Goal of our project:
-    
+    Despite the fact that neighborhood security represents an important factor
+    in individuals’ choice of housing, average rental websites do not reflect
+    crime rates information, probably due to a conflict of interests with landlords.
+    The main purpose of this project is to provide an aggregated rental information
+    in Chicago City incorporating both rental information and past neighborhood crime
+    rates in 2021 for future tenants. The final output will be an interactive map
+    where users can click on geographical points to access both crime rates and
+    housing features including bedroom numbers, bathroom numbers, price range,
+    amenities and other features. With the aggregated information and interactive
+    map, we wish to provide a user-friendly interface to facilitate future tenants’
+    decision-making on housing.
 
 Packages Used and Versions:
     requests: 2.25.1
