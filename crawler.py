@@ -42,6 +42,7 @@ def listing_page_crawler(url):
     # Extracting all links of properties within current page
     properties_links_lst = []
     properties = soup.find_all("li", class_ = "mortar-wrapper")
+
     for property in properties:
         property_link = property.find("a").get('href')
         properties_links_lst.append(property_link)
