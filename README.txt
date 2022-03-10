@@ -10,10 +10,12 @@ Group Members:
 Goal of our project:
     
 
-Packages Used:
-    requests:
-    bs4:
-    csv:
-    numpy:
-    pandas:
-    folium:
+Packages Used and Versions:
+    requests: 2.25.1
+    bs4: 4.9.3
+    csv: 0.14.1
+    numpy: 1.20.1
+    pandas: 1.2.4
+    folium: 0.12.1.post1
+
+How To Run Our Files:
