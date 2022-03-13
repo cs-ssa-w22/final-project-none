@@ -74,7 +74,7 @@
 \begin{frame}
 	\frametitle{Data: Scraping Apartments.com}
 	\begin{itemize}
-		\item Step 1: Collect all single property links in Chicago, IL\footnote{\url{https://www.apartments.com/chicago-il/}}
+		\item Step 1: Collect all single property links in Chicago, IL\footnote{\url{https://www.apartments.com/chicago-il/}}\footnote{\url{https://www.domu.com/}}
 		\begin{itemize}
 			\item Start from first listing page for Chicago $\rightarrow$ Collect all links within current page $\rightarrow$ Until last listing page
 		\end{itemize}
@@ -111,14 +111,25 @@
 
 \section{Data Cleaning}
 
-\begin{frame}{Data Cleaning}
-    \begin{columns}
-        \begin{column}{0.65\textwidth}
-            \begin{itemize}
-        \item Housing Data:
+\begin{frame}{Data Cleaning: Housing}
+    \begin{itemize}
+        \item Apartments Data:
         \begin{itemize}
             \item Replace all zero values to "Not Available" for display purposes
         \end{itemize}
+        \item Domu Data:
+        \begin{itemize}
+            \item Change Apartments data and Domu data into consistent formatting
+            \item Use record linkage to identify same properties
+            \item Aggregate final combined housing data
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Data Cleaning: Crime}
+    \begin{columns}
+        \begin{column}{0.65\textwidth}
+    \begin{itemize}
         \item Crime Data:
         \begin{itemize}
             \item Computing crime severity weights using \textit{Cambridge Crime Harm Index}
