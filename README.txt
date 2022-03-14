@@ -52,12 +52,12 @@ How To Run Our Files:
 
 
     crawler_apt.py:
-            *** No need to rerun the file ***
-            This is the crawler for apartments.com. This file generates
-            the data file apartments.csv used for later analysis.
-            If you would like to replicate the process, you can open a
-            terminal and change to current directory, then type
-            "python3 crawler_apt.py"
+        *** No need to rerun the file ***
+        This is the crawler for apartments.com. This file generates
+        the data file apartments.csv used for later analysis.
+        If you would like to replicate the process, you can open a
+        terminal and change to current directory, then type
+        "python3 crawler_apt.py"
 
     crawler_domu.py:
         *** No need to rerun the file ***
